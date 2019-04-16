@@ -1,4 +1,11 @@
-#include <windows.h>
+#include <iostream>
+#include <cstdlib>
 
-int WINAPI 
+using namespace std;
+
+int main() {
+	system("chcp 1251>null");
+	system("start www.vk.com");
+	return 0;
+}
 
